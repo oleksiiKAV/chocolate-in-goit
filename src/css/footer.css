@@ -37,8 +37,8 @@
 .footer-right {
   display: flex;
   align-items: flex-start;
-  gap: 112px;
   margin-bottom: 32px;
+  justify-content: space-between;
 }
 
 .contacts-list {
@@ -69,8 +69,8 @@
   transition: fill 250ms var(--cubic);
 }
 
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-icon-item-link:hover > .footer-icon,
+.footer-icon-item-link:focus > .footer-icon{
   fill: var(--color-orange);
 }
 

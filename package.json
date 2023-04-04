@@ -1,30 +1,21 @@
-{
-  "name": "parcel-project-template",
-  "version": "2.0.0",
-  "description": "",
-  "homepage": "https://github.com/oleksiiKAV/chocolate-in-goit",
-  "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /chocolate-in-goit/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oleksiiKAV/chocolate-in-goit"
-  },
-  "keywords": [],
-  "author": "Oleksii KAV",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oleksiiKAV/chocolate-in-goit/issues"
-  },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
-  },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
-}
+  {
+    "name": "chocolate-in-goit",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build --base=/chocolate-in-goit/",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "vite": "^4.0.0",
+      "glob": "^8.1.0"
+    },
+    "author": "Oleksii KAV",
+    "license": "ISC",
+    "dependencies": {
+      "vite-plugin-full-reload": "^1.0.5",
+      "vite-plugin-html-inject": "^1.0.1"
+    }
+  }  
