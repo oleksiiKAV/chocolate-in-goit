@@ -1,0 +1,150 @@
+.footer {
+  background-color: var(--color-dark-purple);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.slogan {
+  width: 300px;
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.accent-footer {
+  color: var(--color-orange);
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer-title {
+  color: var(--color-white);
+  margin-bottom: 14px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.footer-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 112px;
+  margin-bottom: 32px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--color-white);
+  letter-spacing: -0.02em;
+}
+
+.footer-contact-link {
+  display: block;
+  transition: color 250ms var(--cubic);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--color-orange);
+}
+
+.icons-list {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-icon {
+  fill: var(--color-white);
+  transition: fill 250ms var(--cubic);
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: var(--color-orange);
+}
+
+.line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.links-list {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  line-height: calc(16 / 14);
+  letter-spacing: -0.02em;
+}
+
+.footer-link {
+  transition: color 250ms var(--cubic);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--color-orange);
+}
+
+@media screen and (min-width: 767.98px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .slogan {
+    font-size: 28px;
+    line-height: calc(34 / 28);
+  }
+
+  .footer-top {
+    display: flex;
+  }
+
+  .footer-right {
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .links-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .line {
+    margin-bottom: 24px;
+  }
+
+  .footer-right {
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .icons-list {
+    gap: 18px;
+  }
+
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .footer-right {
+    gap: 62px;
+    margin-bottom: 58px;
+  }
+}

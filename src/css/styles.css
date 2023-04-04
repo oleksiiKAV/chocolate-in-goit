@@ -1,0 +1,81 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./visually-hidden.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./advantages.css');
+@import url('./unique-components.css');
+@import url('./how-its-made.css');
+@import url('./our-products.css');
+@import url('./top-sellers.css');
+
+@import url('./reviews.css');
+@import url('./subscribe.css');
+@import url('./footer.css');
+
+@import url('./buy-now.css');
+@import url('./thank-you.css');
+@import url('./leave-a-review-about-our-chocolate.css');
+@import url('./thank-you-for-your-feedback.css');
+@import url('./explore-our-new-chocolate-first.css');
+@import url('./buy-now.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  background-color: #fafafa;
+}
+
+:root {
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --color-black: #111111;
+  --color-orange: #fd9222;
+  --color-dark-purple: #1e1823;
+  --color-white: #ffffff;
+  --color-light-orange: #fcf1e0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 375px;
+}
+
+@media screen and (min-width: 767.98px) {
+  .container {
+    padding: 0 32px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .container {
+    padding: 0 32px;
+    max-width: 1200px;
+  }
+}
+
+.our-products-and-reviews-card-slider .swiper-pagination-bullet {
+  background: rgba(17, 17, 17, 0.1);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 1;
+}
+.our-products-and-reviews-card-slider .swiper-pagination-bullet-active {
+  background: var(--color-orange);
+  width: 28px;
+  height: 13px;
+  border-radius: 7px;
+}
